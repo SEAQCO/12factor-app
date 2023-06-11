@@ -16,4 +16,4 @@
 oc new-app my12factorapp
 oc expose svc/my12factorapp --hostname 12factorappdemo.$OPENSHIFT_IP.nip.io
 oc set probe dc/my12factorapp --readiness --get-url=http://:8080/api/health
-echo "Application executed. Check the URL: http://12factorappdemo.$OPENSHIFT_IP.nip.io/api/hello/Rafael"
+echo "Application executed. Check the URL: http://12factorappdemo.$OPENSHIFT_IP.nip.io/api/hello/Andres"
